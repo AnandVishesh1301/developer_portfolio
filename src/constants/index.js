@@ -40,7 +40,7 @@ import {
     },
   ];
   
-  const services = [
+  export const services = [
     {
       title: "Web Developer",
       icon: web,
@@ -262,4 +262,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+export default { services, technologies, experiences, testimonials, projects };
