@@ -114,7 +114,7 @@ import {
     },
   ];
   
-  const experiences = [
+  export const experiences = [
     {
       title: "React.js Developer",
       company_name: "Starbucks",
