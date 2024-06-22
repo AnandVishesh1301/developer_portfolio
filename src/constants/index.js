@@ -1,28 +1,33 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
+  logo,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  docker,
+  python,
+  git,
+  html,
+  javascript,
+  c_plus_plus,
+  nodejs,
+  reactjs,
+  graphql,
+  tailwind,
+  typescript,
+  threejs,
+  ceas,
+  kv,
+  rec,
+  uc,
+  icdcu,
+  carrent,
+  jobit,
+  tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -59,7 +64,7 @@ import {
     },
   ];
   
-  const technologies = [
+  export const technologies = [
     {
       name: "HTML 5",
       icon: html,
@@ -80,9 +85,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
+    //Redux To Be Replaced with GraphQL
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "GraphQL",
+      icon: graphql,
     },
     {
       name: "Tailwind CSS",
@@ -92,9 +98,10 @@ import {
       name: "Node JS",
       icon: nodejs,
     },
+    //Mongo DB TO be Replaced with C++
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "C++",
+      icon: c_plus_plus,
     },
     {
       name: "Three JS",
@@ -104,9 +111,10 @@ import {
       name: "git",
       icon: git,
     },
+    //Figma To Be Replaced with Python
     {
       name: "figma",
-      icon: figma,
+      icon: python,
     },
     {
       name: "docker",
@@ -114,24 +122,23 @@ import {
     },
   ];
   
-  const experiences = [
+  export const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Student Orientation Leader",
+      company_name: "University of Cincinnati",
+      icon: rec,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with a team of 26 SOLs to organize orientations for over 8,000 incoming students from diverse majors, ensuring a smooth transition from high school to college.",
+        "Underwent rigorous training sessions to familiarize new students with university resources, fostering an inclusive and welcoming environment.",
+        "Coordinated daily plans and activities to ensure seamless execution of orientation events, enhancing the overall experience for new students and parents.",
       ],
     },
     {
       title: "React Native Developer",
       company_name: "Tesla",
-      icon: tesla,
+      icon: uc,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
@@ -144,7 +151,7 @@ import {
     {
       title: "Web Developer",
       company_name: "Shopify",
-      icon: shopify,
+      icon: kv,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
@@ -157,7 +164,7 @@ import {
     {
       title: "Full stack Developer",
       company_name: "Meta",
-      icon: meta,
+      icon: ceas,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -167,6 +174,34 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "PHolder",
+      company_name: "XYZ COmpany",
+      icon: icdcu,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
+      points: [
+        "Enim cillum sunt deserunt ullamco laborum nulla enim sunt esse tempor eu. Id fugiat adipisicing id dolore amet qui magna fug.",
+        " Nulla enim adipisicing tempor dolor ex culpa eu cupidatat deserunt.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "oluptate laborum culpa excepteur excepteur et nulla quis culpa proident et irure excepteur",
+      ],
+    },
+    {
+      title: "PHolder2",
+      company_name: "XYZ COmpany",
+      icon: kv,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
+      points: [
+        "PHolder ETxt-2 fhgub jvhcguyggewkuye.",
+        " Nulla enim adipisicing tempor dolor ex culpa eu cupidatat deserunt.",
+        "berjwhgregerhjrejhregjgrgereeere.",
+        "oluptate laborum culpa excepteur excepteur et nulla quis culpa proident et irure excepteur",
+      ],
+    },
+    
+    
   ];
   
   const testimonials = [
