@@ -9,23 +9,22 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import python from "./tech/python.png";
+import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import c_plus_plus from "./tech/c++.png";
+import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import graphql from "./tech/graphql.png";
+import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import ceas from "./company/ceas.png";
-import kv from "./company/kv.png";
-import rec from "./company/rec.png";
-import uc from "./company/uc.png";
-import icdcu from "./company/icdcu.png";
+import meta from "./company/meta.png";
+import shopify from "./company/shopify.png";
+import starbucks from "./company/starbucks.png";
+import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -42,22 +41,21 @@ export {
   close,
   css,
   docker,
-  python,
+  figma,
   git,
   html,
   javascript,
-  c_plus_plus,
+  mongodb,
   nodejs,
   reactjs,
-  graphql,
+  redux,
   tailwind,
   typescript,
   threejs,
-  ceas,
-  kv,
-  rec,
-  uc,
-  icdcu,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
   carrent,
   jobit,
   tripguide,
