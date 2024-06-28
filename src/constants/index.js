@@ -126,7 +126,7 @@ import {
     {
       title: "Student Orientation Leader",
       company_name: "University of Cincinnati",
-      icon: rec,
+      icon: uc,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -204,7 +204,7 @@ import {
     
   ];
   
-  const testimonials = [
+  export const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -231,7 +231,7 @@ import {
     },
   ];
   
-  const projects = [
+  export const projects = [
     {
       name: "Car Rent",
       description:
