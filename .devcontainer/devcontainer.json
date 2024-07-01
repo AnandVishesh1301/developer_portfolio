@@ -2,17 +2,7 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/alpine
 {
 	"name": "Ubuntu",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-	// "runServices": ["vscode"],
-    "features": {
-        "ghcr.io/jungaretti/features/vim:1": {},
-        "ghcr.io/flexwie/devcontainer-features/op:1": {},
-		"ghcr.io/devcontainers/features/node:1": {
-            "version": "22.1.0"
-		}
-
-    },
-	
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:16-bullseye",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
