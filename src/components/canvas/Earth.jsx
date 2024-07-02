@@ -7,12 +7,14 @@ import { CanvasLoader } from '../Loader';
 const Earth = () => {
   const earth = useGLTF('./planet/scene.gltf');  // Try more 3d MOdels from online , download and reference their .gltf file here
   return (
-    <primitive
-      object={earth.scene}
-      scene={2.5}
-      position-y={0}
-      rotation-y={0}
-    />
+    <group scale={1.75}>
+      <primitive
+        object={earth.scene}
+        // scene={2.5}
+        position-y={0}
+        rotation-y={0}
+      />
+    </group>
   )
 }
 
