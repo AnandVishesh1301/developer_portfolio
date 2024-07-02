@@ -9,6 +9,9 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { MotionConfig } from 'framer-motion';
 
+// template_jhl8hr7
+// Outlook Service ID: service_9v4or09
+// wAyEHrR3kWoLrKKj2
 
 const Contact = () => {
   const formRef = useRef();
@@ -20,8 +23,41 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => { }
-  const handleSubmit = (e) => { }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send("service_9v4or09",
+      "template_jhl8hr7",
+      {
+        from_name: form.name,
+        to_name: "Vishesh",
+        from_email: form.email,
+        to_email: 'anandvh@mail.uc.edu',
+        message: form.message,
+      },
+      "wAyEHrR3kWoLrKKj2"
+    )
+      .then(() => {
+        setLoading(false);
+        alert("Thanks for Reaching out, I will get back to you ASAP!");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        })
+      }, (error) => {
+        setLoading(false);
+        console.log(error);
+        alert('Something went wrong')
+
+      })
+
+  }
   return (
     <div
       className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'
@@ -61,7 +97,7 @@ const Contact = () => {
             <input
               type="email"
               name="email"
-              value={form.name}
+              value={form.email}
               onChange={handleChange}
               placeholder="What's Your Email"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary
