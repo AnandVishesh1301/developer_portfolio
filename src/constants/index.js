@@ -28,6 +28,9 @@ import {
   carrent,
   jobit,
   tripguide,
+  GVF,
+  toh,
+  dev_port
   } from "../assets";
   
   export const navLinks = [
@@ -126,7 +129,7 @@ import {
     {
       title: "Student Orientation Leader",
       company_name: "University of Cincinnati",
-      icon: rec,
+      icon: uc,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -136,6 +139,8 @@ import {
       ],
     },
     {
+      title: "Member Services Lead",
+      company_name: "UC Campus Rec",
       title: "Member Services Lead",
       company_name: "UC Campus Rec",
       icon: uc,
@@ -202,96 +207,96 @@ import {
     
   ];
   
-  const testimonials = [
+  export const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Aute cupidatat magna laboris occaecat adipisicing in nisi enim in.",
+      name: "Rodney Clark",
+      designation: "Team LEAD",
+      company: "Kinetic Vision",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Velit ullamco id nulla eiusmod exercitation nisi aliqua minim exercitation.",
+      name: "Liam Stojanovic",
+      designation: "SWE",
+      company: "Kinetic Vision",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Commodo ea veniam enim tempor esse magna minim irure reprehenderit ex.",
+      name: "Scott Fasone",
+      designation: "Lead SWE",
+      company: "Kinetic",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
   
-  const projects = [
+  export const projects = [
     {
-      name: "Car Rent",
+      name: "Volunteer Management System",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: GVF,
+      source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
     },
     {
-      name: "Job IT",
+      name: "Towers of Hanoi",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Developed an LC-3 assembly language program to solve the Towers of Hanoi problem, showcasing the use of a software stack and activation records for efficient function calls and recursion",
+      tags: [
+        {
+          name: "Assembly Language Programming",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "LC-3 Simulator",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stcak Management",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: toh,
+      source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
+    },
+    {
+      name: "Developer Portfolio",
+      description:
+        "A dynamic frontend developer portfolio showcasing my work experiences, projects, and college journey, enhanced with animations and 3D models , and built in a separate development environment using a Docker dev container",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Three.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: dev_port,
+      source_code_link: "https://github.com/AnandVishesh1301/developer_portfolio",
     },
   ];
   
