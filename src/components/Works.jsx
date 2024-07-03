@@ -8,7 +8,7 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image,
-  source_code_links }) => {
+  source_code_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring",
@@ -41,7 +41,7 @@ const ProjectCard = ({ index, name, description, tags, image,
           >
             <div
               onClick={() =>
-                window.open(source_code_links, "_blank")
+                window.open(source_code_link, "_blank")
               }
               className='black-gradient w-10 h-10
               rounded-full flex justify-center items-center cursor-pointer'
@@ -55,7 +55,7 @@ const ProjectCard = ({ index, name, description, tags, image,
             {/* Another div for future Live Links to the Projects. Change the Github logo to something more relevant */}
             {/* <div
               onClick={() =>
-                window.open(source_code_links, "_blank")
+                window.open(source_code_link, "_blank")
               }
               className='black-gradient w-10 h-10
               rounded-full flex justify-center items-center cursor-pointer'
@@ -100,9 +100,9 @@ const Works = () => {
           className='mt-3 text-secondary text-[17px]
         max-w-3xl leading-[30px]'
         >
-          Para fir s bried desc of my projs that
-          the following section contains live links to code repos
-          and demos for the same.......
+          Dive into a collection of my diverse projects, each showcasing unique tech stacks and
+          solutions, depicting my critical thinking and problem solving skills.
+          Click on the GitHub icon in the top right corner of each card to explore their source code and learn more.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
@@ -112,7 +112,6 @@ const Works = () => {
             {...project}
           />
 
-
         ))}
 
       </div>
@@ -120,4 +119,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default SectionWrapper(Works, "");

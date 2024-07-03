@@ -20,6 +20,10 @@ import graphql from "./tech/graphql.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import GVF from "./GVF.png";
+import toh from "./toh.png";
+import dev_port from "./dev-portfolio-png-fw.png";
+
 
 import kv from "./company/kv.png";
 import uc from "./company/uc.png";
@@ -62,5 +66,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  ceas
+  ceas,
+  toh,
+  GVF,
+  dev_port
 };
