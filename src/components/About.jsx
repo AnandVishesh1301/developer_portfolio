@@ -47,10 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-
-        This is supposed to be my intro for the About Me Section. <br />
-        Sunt irure do enim aute ipsum magna ut deserunt elit duis labore ea anim. Do sint dolor esse cupidatat.
-        <br />Voluptate voluptate ut aliquip ex quis aliqua et consequat. Magna duis ut pariatur exercitation consequat aliquip consequat sit anim exercitation. Esse non velit magna proident quis. In laborum nulla adipisicing amet Lorem.
+        I'm Vishesh, a rising third-year Computer Science major at the University of Cincinnati.<br />
+        With a solid foundation in Web-Dev and frameworks along with core CS fundamentals, gained through hands-on experiences like my undergraduate research in Bioinformatics Development and a SWE internship at Kinetic Vision. These roles have sharpened my technical skills and problem-solving abilities in real-world scenarios<br />
+        My soft skills, including leadership and team management, have been further developed through roles where I organized and led crucial events within the College of Engineering and Applied Science, aiming to improve the lives of my fellow peers. I'm passionate about contributing positively to society, and these experiences reflect my commitment to making a meaningful impact. For more details, browse through my portfolio to dive deeper into my experiences.
       </motion.p>
       <div
         className='mt-20 flex flex-wrap gap-10'
