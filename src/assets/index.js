@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import vlogo from "./vlogo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -70,4 +71,5 @@ export {
   toh,
   GVF,
   dev_port
+  vlogo
 };
