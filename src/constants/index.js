@@ -58,11 +58,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Leadership Catalyst",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Innovative Problem Solver",
       icon: creator,
     },
   ];
