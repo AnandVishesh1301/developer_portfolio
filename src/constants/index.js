@@ -30,7 +30,10 @@ import {
   tripguide,
   GVF,
   toh,
-  dev_port
+  dev_port,
+  githublogo,
+  linkedin,
+  github
   } from "../assets";
   
   export const navLinks = [
@@ -45,6 +48,18 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+  ];
+  export const socialLinks = [
+    {
+      id: "github",
+      url: "https://github.com/AnandVishesh1301",
+      icon: github,
+    },
+    {
+      id: "linkedin",
+      url: "https://www.linkedin.com/in/vishesh1301/",
+      icon: linkedin,
     },
   ];
   
