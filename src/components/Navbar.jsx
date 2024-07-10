@@ -1,8 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom'
 import { styles } from '../style';
-import { navLinks } from '../constants';
-import {logo, menu, close} from '../assets';
+import { navLinks, socialLinks } from '../constants';
+import {logo, menu, close, linkedin, githublogo} from '../assets';
 
 const Navbar = () => {
   const[active,setActive]=useState('');
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav
     className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary` }
     >
-      {/* justify between is to slogn the elements along the containers main axis equidistantly */}
+      {/* justify between is to align the elements along the containers main axis equidistantly */}
       {/* mx for horizontal margin i.e on left and right
       Similarly my on the vertical and simple m for overall margin */}
 
@@ -45,6 +45,13 @@ const Navbar = () => {
               <a href={`#${Link.id}`}>{Link.title}</a>
             </li>
           ))}
+          {socialLinks.map((link) => (
+              <li key={link.id}>
+                <a href={link.url} target="_blank" rel="noopener noreferrer">
+                  <img src={link.icon} alt={link.id} className='w-7 h-7 object-contain' />
+                </a>
+              </li>
+          ))}
 
         </ul>
         {/* Below part is to adjust the navbar links to a menu for small devices */}
@@ -71,6 +78,20 @@ const Navbar = () => {
                   }}
                 >
                 <a href={`#${Link.id}`}>{Link.title}</a>
+                </li>
+              ))}
+              {socialLinks.map((link) => (
+                <li key={link.id}>
+                  <a 
+                    href={link.url}
+                     
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-secondary hover:text-white"
+                  >
+                    <img src={link.icon} alt={link.id} className='w-7 h-7 object-contain' />
+                    <span>{link.id.charAt(0).toUpperCase() + link.id.slice(1)}</span>
+                  </a>
                 </li>
               ))}
 
