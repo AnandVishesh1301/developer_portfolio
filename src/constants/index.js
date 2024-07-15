@@ -32,8 +32,7 @@ import {
   toh,
   dev_port,
   githublogo,
-  linkedin,
-  github
+  linkedin
   } from "../assets";
   
   export const navLinks = [
