@@ -8,6 +8,8 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import { MotionConfig } from 'framer-motion';
+import ReCAPTCHA from 'react-google-recaptcha';
+
 
 // template_jhl8hr7
 // Outlook Service ID: service_9v4or09
@@ -15,6 +17,7 @@ import { MotionConfig } from 'framer-motion';
 
 const Contact = () => {
   const formRef = useRef();
+  const recaptcha = useRef();
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -29,6 +32,12 @@ const Contact = () => {
   }
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    const recaptchaValue = recaptcha.current.getValue();
+    if (!recaptchaValue) {
+      alert('Please verify the reCAPTCHA!');
+      return;
+    }
     setLoading(true);
     emailjs.send("service_9v4or09",
       "template_jhl8hr7",
@@ -50,6 +59,7 @@ const Contact = () => {
           email: "",
           message: "",
         })
+        recaptcha.current.reset();
       }, (error) => {
         setLoading(false);
         console.log(error);
@@ -118,6 +128,7 @@ const Contact = () => {
               text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
+          <ReCAPTCHA ref = {recaptcha} sitekey={import.meta.env.VITE_REACT_APP_SITE_KEY} />
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold
@@ -126,6 +137,7 @@ const Contact = () => {
             {loading ? 'Sending ...' : 'Send'}
 
           </button>
+          
         </form>
       </motion.div>
       <motion.div
