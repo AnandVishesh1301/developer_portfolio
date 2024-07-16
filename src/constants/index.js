@@ -32,7 +32,11 @@ import {
   toh,
   dev_port,
   githublogo,
-  linkedin
+  linkedin,
+  peter,
+  liam,
+  clark,
+  jeremy
   } from "../assets";
   
   export const navLinks = [
@@ -238,27 +242,27 @@ import {
   export const testimonials = [
     {
       testimonial:
-        "Aute cupidatat magna laboris occaecat adipisicing in nisi enim in.",
+        "I've been able to work directly with Vishesh on one of our large language model initiatives. In addition to his technical talents, his positive attitude, communication, diligence, and active feedback solicitation have been refreshing. Closing the continuous improvement loop comes naturally to Vishesh. Great work! I hope we work together in the future.",
+      name: "Jeremy Jarrett",
+      designation: "President & CEO",
+      company: "Kinetic Vision",
+      image: jeremy,
+    },
+    {
+      testimonial:
+        "I have had the pleasure to work with Vishesh as his mentor and direct manager. This young man has a huge passion for learning and helping. He was quick to catch on and onboards quickly. The best part about working with Vishesh is his team dedication. He will constantly look for ways to help the team even when it is beyond his role and expectations. Anyone would be lucky to have him on their team!",
       name: "Rodney Clark",
-      designation: "Team LEAD",
+      designation: "Development Team Lead",
       company: "Kinetic Vision",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: clark,
     },
     {
       testimonial:
-        "Velit ullamco id nulla eiusmod exercitation nisi aliqua minim exercitation.",
+        "Vishesh brings much to the table: He's self-driven, likeable, and passionate about the world of software. Through both of his co-op rotations at Kinetic Vision, he's proven to be a team player who isn't afraid to tackle challenging problems. He is well on his way to a fruitful career in software engineering, and I can vouch for the value he brings to our group!",
       name: "Liam Stojanovic",
-      designation: "SWE",
+      designation: "Software Developer",
       company: "Kinetic Vision",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "Commodo ea veniam enim tempor esse magna minim irure reprehenderit ex.",
-      name: "Scott Fasone",
-      designation: "Lead SWE",
-      company: "Kinetic",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: liam,
     },
   ];
   

@@ -34,7 +34,10 @@ import rec from "./company/rec.png";
 import icdcu from "./company/icdcu.png";
 import ceas from "./company/ceas.png";
 
-
+import peter from "./peter.png";
+import liam from "./liam.png";
+import clark from "./clark.png";
+import jeremy from "./jeremy.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -75,5 +78,9 @@ export {
   toh,
   GVF,
   dev_port,
-  vlogo
+  vlogo,
+  peter,
+  liam,
+  clark,
+  jeremy
 };

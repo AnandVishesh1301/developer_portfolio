@@ -32,7 +32,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
           <p
             className='mt-1 text-secondary text-[12px]'
           >
-            {designation}  of {company}
+            {designation}  @ {company}
           </p>
         </div>
         <img src={image}
