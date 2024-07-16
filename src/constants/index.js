@@ -141,11 +141,75 @@ import {
   
   export const experiences = [
     {
+      title: "SWE Intern - Data Engineering/Machine Learning",
+      company_name: "Kinetic Vision",
+      icon: kv,
+      iconBg: "#E6DEDD",
+      date: "April 2024 - Present",
+      points: [
+        "Added new features to a web app that stores product testing data and manages user access, utilizing Python, GraphQL, TypeScript, React, and PostgreSQL.",
+        " Measured and analyzed the flow of detergent from a syringe under different environments, providing data used by the simulation team to create simulation videos.",
+        "Worked closely with cross-functional teams to enhance the functionality and user experience of the web app, ensuring robust data management and access control.",
+      ],
+    },
+    {
+      title: "Undergraduate Research Assistant",
+      company_name: "iCDCU Bio-Informatics Lab, College of Medicine",
+      icon: icdcu,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - Present",
+      points: [
+        "Developed and upgraded a research management portal, enabling doctors and researchers to safely upload projects and critical client data using Python Flask, JavaScript, and Bootstrap CSS.",
+        "Collaborated with a team of four developers and a project manager, tracking progress through regular stand-up calls.",
+        "Implemented Agile project development strategies to accommodate client needs and allow for iterative improvements.",
+        "Ensured the secure handling and management of sensitive clinical data, maintaining high standards of data protection and privacy.",
+      ],
+    },
+   
+    {
+      title: "CS 1021 Teaching Assistant",
+      company_name: "College of Engineering and Applied Science",
+      icon: ceas,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - April 2024",
+      points: [
+        "Led lab sessions for over 200 students, guiding them in understanding and applying fundamental C++ programming concepts.",
+        "Evaluated student submissions and provided detailed feedback to foster good coding practices and improve programming proficiency, earning the Teaching Assistant of the Year Award for Spring 2024.",
+        "Collaborated with faculty, including Dr. William Hawkins, to develop instructional materials and strategies for optimizing student learning experiences.",
+        "Ensured the successful completion of weekly assignments by providing consistent support and clarifying complex programming topics.",
+      ],
+    },
+    {
+      title: "Career Dev Chair",
+      company_name: "College of Engineering and Applied Science Tribunal",
+      icon: ceas,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - April 2024",
+      points: [
+        "Organized the Spring 2024 CEAS Career Fair, liaising with 300+ employers and coordinating with over 10 campus departments.",
+        "Oversaw pre-fair events such as resume reviews and career panels, ensuring comprehensive preparation for students.",
+        "Managed volunteer recruitment and assigned roles to Tribunal executive members for the day of the fair.",
+        "Supervised the overall functioning of the fair, facilitating the participation of over 4713 students from various colleges for a seamless execution.",
+      ],
+    },
+    {
+      title: "SWE Intern",
+      company_name: "Kinetic Vision",
+      icon: kv,
+      iconBg: "#E6DEDD",
+      date: "August 2023 - December 2023",
+      points: [
+        "Developed a volunteer registration portal for a non-profit assisting Alzheimer's patients, using React, TypeScript, GraphQL, and Keystone.",
+        "Automated the conversion of Miro diagrams to Mermaid, significantly improving efficiency and accuracy in data processing which saved 50% of the project time",
+        "Worked closely with a team of co-ops, FTE's and clients to deliver impactful solutions, demonstrating strong collaboration and technical skills.",
+      ],
+    },
+    {
       title: "Student Orientation Leader",
       company_name: "University of Cincinnati",
       icon: uc,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      iconBg: "#E6DEDD",
+      date: "January 2023 - August 2023",
       points: [
         "Collaborated with a team of 26 SOLs to organize orientations for over 8,000 incoming students from diverse majors, ensuring a smooth transition from high school to college.",
         "Underwent rigorous training sessions to familiarize new students with university resources, fostering an inclusive and welcoming environment.",
@@ -159,7 +223,7 @@ import {
       company_name: "UC Campus Rec",
       icon: uc,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "December 2022 - January 2024",
       points: [
         "Improved the overall experience for UC Campus Rec members by addressing their needs and ensuring a welcoming environment.",
         " Effectively responded to emergency situations, ensuring the safety and well-being of students and staff.",
@@ -167,57 +231,7 @@ import {
         "Managed membership sales, parking, and compliance with access policies, maintaining order during peak times and high traffic.",
       ],
     },
-    {
-      title: "SWE Intern",
-      company_name: "Kinetic Vision",
-      icon: kv,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developed a volunteer registration portal for a non-profit assisting Alzheimer's patients, using React, TypeScript, GraphQL, and Keystone.",
-        "Automated the conversion of Miro diagrams to Mermaid, significantly improving efficiency and accuracy in data processing which saved 50% of the project time",
-        "Worked closely with a team of co-ops, FTE's and clients to deliver impactful solutions, demonstrating strong collaboration and technical skills.",
-      ],
-    },
-    {
-      title: "CS 1021 Teaching Assistant",
-      company_name: "College of Engineering and Applied Science",
-      icon: ceas,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Led lab sessions for over 200 students, guiding them in understanding and applying fundamental C++ programming concepts.",
-        "Evaluated student submissions and provided detailed feedback to foster good coding practices and improve programming proficiency, earning the Teaching Assistant of the Year Award for Spring 2024.",
-        "Collaborated with faculty, including Dr. William Hawkins, to develop instructional materials and strategies for optimizing student learning experiences.",
-        "Ensured the successful completion of weekly assignments by providing consistent support and clarifying complex programming topics.",
-      ],
-    },
-    {
-      title: "Undergraduate Research Assistant",
-      company_name: "iCDCU Bio-Informatics Lab, College of Medicine",
-      icon: icdcu,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developed and upgraded a research management portal, enabling doctors and researchers to safely upload projects and critical client data using Python Flask, JavaScript, and Bootstrap CSS.",
-        "Collaborated with a team of four developers and a project manager, tracking progress through regular stand-up calls.",
-        "Implemented Agile project development strategies to accommodate client needs and allow for iterative improvements.",
-        "Ensured the secure handling and management of sensitive clinical data, maintaining high standards of data protection and privacy.",
-      ],
-    },
-    {
-      title: "SWE Intern - Data Engineering/Machine Learning",
-      company_name: "Kinetic Vision",
-      icon: kv,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Added new features to a web app that stores product testing data and manages user access, utilizing Python, GraphQL, TypeScript, React, and PostgreSQL.",
-        " Measured and analyzed the flow of detergent from a syringe under different environments, providing data used by the simulation team to create simulation videos.",
-        "Worked closely with cross-functional teams to enhance the functionality and user experience of the web app, ensuring robust data management and access control.",
-      ],
-    },
-    
+   
     
   ];
   
