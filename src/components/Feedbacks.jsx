@@ -7,7 +7,7 @@ import { testimonials } from '../constants';
 import { useMemo } from 'react';
 // import FeedbackCard from './FeedbackCard';
 
-const FeedbackCard = ({ index, testimonial, name, designation, company, image }) => (
+const FeedbackCard = ({ index, testimonial, name, designation, company, image, linkedin }) => (
 
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}
@@ -35,10 +35,17 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
             {designation}  @ {company}
           </p>
         </div>
-        <img src={image}
+        {/* <img src={image}
           alt={`feedback-by-${name}`}
           className='w-10 h-10 rounded-full object-cover'
-        />
+        /> */}
+        {linkedin ? (
+          <a href={linkedin} target="_blank" rel="noopener noreferrer">
+            <img src={image} alt={`feedback-by-${name}`} className='w-10 h-10 rounded-full object-cover' />
+          </a>
+        ) : (
+          <img src={image} alt={`feedback-by-${name}`} className='w-10 h-10 rounded-full object-cover' />
+        )}
       </div>
     </div>
 
