@@ -247,6 +247,7 @@ import {
       designation: "President & CEO",
       company: "Kinetic Vision",
       image: jeremy,
+      linkedin: "https://www.linkedin.com/in/jeremyjj/",
     },
     {
       testimonial:
@@ -263,6 +264,7 @@ import {
       designation: "Software Developer",
       company: "Kinetic Vision",
       image: liam,
+      linkedin: "https://www.linkedin.com/in/liam-stojanovic/",
     },
   ];
   
