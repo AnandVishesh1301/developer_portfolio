@@ -128,7 +128,7 @@ const Contact = () => {
               text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <ReCAPTCHA ref = {recaptcha} sitekey={import.meta.env.VITE_REACT_APP_SITE_KEY} />
+          <ReCAPTCHA ref={recaptcha} sitekey={import.meta.env.APP_ENV.APP_SITE_KEY} />
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold
@@ -137,7 +137,7 @@ const Contact = () => {
             {loading ? 'Sending ...' : 'Send'}
 
           </button>
-          
+
         </form>
       </motion.div>
       <motion.div
@@ -152,3 +152,5 @@ const Contact = () => {
 }
 
 export default SectionWrapper(Contact, 'contact')
+
+console.log(import.meta.APP_ENV)
