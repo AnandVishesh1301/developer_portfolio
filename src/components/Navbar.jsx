@@ -45,11 +45,11 @@ const Navbar = () => {
             </li>
           ))}
           {socialLinks.map((link) => (
-              <li key={link.id}>
-                <a href={link.url} target="_blank" rel="noopener noreferrer">
-                  <img src={link.icon} alt={link.id} className='w-7 h-7 object-contain' />
-                </a>
-              </li>
+            <li key={link.id}>
+              <a href={link.url} target="_blank" rel="noopener noreferrer">
+                <img src={link.icon} alt={link.id} className='w-7 h-7 object-contain' />
+              </a>
+            </li>
           ))}
 
         </ul>
@@ -81,10 +81,10 @@ const Navbar = () => {
               ))}
               {socialLinks.map((link) => (
                 <li key={link.id}>
-                  <a 
+                  <a
                     href={link.url}
-                     
-                    target="_blank" 
+
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-secondary hover:text-white"
                   >

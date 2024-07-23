@@ -7,7 +7,7 @@ import { CanvasLoader } from '../Loader';
 const Earth = () => {
   const earth = useGLTF('./planet/scene.gltf');  // Try more 3d MOdels from online , download and reference their .gltf file here
   return (
-    <group scale={1.75}>
+    <group scale={7}>
       <primitive
         object={earth.scene}
         // scene={2.5}
@@ -27,9 +27,11 @@ const EarthCanvas = () => {
       camera={{
         fov: 45,
         near: 0.1,
-        far: 200,
-        position: [-4, 3, 6]
-      }}>
+        far: 700,
+        position: [-8, 5, 15]
+      }}
+      style={{ height: '100%', width: '100%' }}
+    >
       <Suspense
         fallback={<CanvasLoader />}
       >
