@@ -151,9 +151,9 @@ import {
       iconBg: "#E6DEDD",
       date: "April 2024 - Present",
       points: [
+        "Contributed to a digital lobby greeter project by performing prompt engineering, enhancing the web app's UI using Vanilla JS, deploying the AI assistant, and controlling the behavior of the large language model (LLM).",
         "Added new features to a web app that stores product testing data and manages user access, utilizing Python, GraphQL, TypeScript, React, and PostgreSQL.",
-        " Measured and analyzed the flow of detergent from a syringe under different environments, providing data used by the simulation team to create simulation videos.",
-        "Worked closely with cross-functional teams to enhance the functionality and user experience of the web app, ensuring robust data management and access control.",
+        "Measured and analyzed the flow of detergent from a syringe under different environments, providing data used by the simulation team to create simulation videos.",
       ],
     },
     {
