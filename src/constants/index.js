@@ -36,7 +36,8 @@ import {
   peter,
   liam,
   clark,
-  jeremy
+  jeremy,
+  justhurry
   } from "../assets";
   
   export const navLinks = [
@@ -269,6 +270,39 @@ import {
   ];
   
   export const projects = [
+    {
+      name: "Just-Hurry!",
+      description:
+        "Built at Hack Harvard 2024, Just-Hurry! is a web app and ML model that predicts hurricane impact zones to efficiently allocate disaster relief resources efficiently and acts as a mediatory between relief orgs and refugees. Developed using ReactJS, Next.js, Python Flask, and MongoDB, it provides real-time resources and volunteer coordination, with data visualization integrated via Palantir Foundry.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python Flask",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "TensorFlow",
+          color: "#a3e635",
+        },
+        {
+          name: "Palantir Foundry",
+          color: "grey-text-gradient",
+        },
+      ],
+      image: justhurry,
+      source_code_link: "https://github.com/AnandVishesh1301/just-hurry",
+    },
     {
       name: "Volunteer Management System",
       description:

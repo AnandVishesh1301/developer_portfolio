@@ -235,7 +235,7 @@ const Contact = () => {
           >
             <Form.Item
               name="name"
-              label="Name"
+              label={<span style={{ color: 'white' }}>Name</span>}
               rules={[{ required: true, message: "Name is required" }]}
               className='white-label font-medium mb-4'
 
@@ -245,7 +245,7 @@ const Contact = () => {
             </Form.Item>
             <Form.Item
               name="email"
-              label="Email"
+              label={<span style={{ color: 'white' }}>Email </span>}
               rules={[{ required: true, message: "Email address is required" }]}
             >
               <Input placeholder="What's Your Email" className='bg-tertiary py-4 px-6 placeholder:text-secondary
@@ -253,7 +253,7 @@ const Contact = () => {
             </Form.Item>
             <Form.Item
               name="message"
-              label="Message"
+              label={<span style={{ color: 'white' }}>Message</span>}
               rules={[{ required: true, message: "Message is required" }]}
             >
               <Input placeholder="What's Your Message" className='bg-tertiary py-10 px-6 placeholder:text-secondary

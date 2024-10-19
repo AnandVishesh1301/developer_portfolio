@@ -26,6 +26,7 @@ import threejs from "./tech/threejs.svg";
 import GVF from "./GVF.png";
 import toh from "./toh.png";
 import dev_port from "./dev-portfolio-png-fw.png";
+import justhurry from "./justhurry.png";
 
 
 import kv from "./company/kv.png";
@@ -82,5 +83,6 @@ export {
   peter,
   liam,
   clark,
-  jeremy
+  jeremy,
+  justhurry
 };
