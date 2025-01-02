@@ -37,7 +37,8 @@ import {
   liam,
   clark,
   jeremy,
-  justhurry
+  justhurry,
+  fitPlant
   } from "../assets";
   
   export const navLinks = [
@@ -302,6 +303,47 @@ import {
       ],
       image: justhurry,
       source_code_link: "https://github.com/AnandVishesh1301/just-hurry",
+    },
+    {
+      name: "Fit-Plant",
+      description:
+        "Fit-Plant is a digital soil meter combining NPK, light (BH1750), and soil moisture sensors with an ESP32 microcontroller to deliver real-time plant health insights. Programmed in C++ using Arduino, it calculates moisture, light intensity, and NPK levels. Integrated with a Next.js web app built with Python, React.js, and Tailwind CSS, it provides actionable care advice by comparing sensor data to optimal benchmarks. I also conducted AgTech market research, analyzed competitors, developed a revenue model, and pitched Fit-Plant to local entrepreneurs at the Center for Entrepreneurship’s Innovation Challenge.",
+      tags: [
+        {
+          name: "ReactJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Python Flask",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Tailwind CSS",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "ESP 32 MicroController",
+          color: "grey-text-gradient",
+        },
+        {
+          name: "Moisture, Light and NPK Sensors",
+          color: "green-text-gradient",
+        },
+        {
+          name: "C++",
+          color: "#a3e635",
+        },
+        {
+          name: "Soldering and Hardware Integration",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: fitPlant,
+      source_code_link: "https://github.com/AnandVishesh1301/fit-plant",
     },
     {
       name: "Volunteer Management System",

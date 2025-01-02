@@ -27,6 +27,7 @@ import GVF from "./GVF.png";
 import toh from "./toh.png";
 import dev_port from "./dev-portfolio-png-fw.png";
 import justhurry from "./justhurry.png";
+import fitPlant from "./fit-plant.png";
 
 
 import kv from "./company/kv.png";
@@ -84,5 +85,6 @@ export {
   liam,
   clark,
   jeremy,
-  justhurry
+  justhurry,
+  fitPlant
 };
