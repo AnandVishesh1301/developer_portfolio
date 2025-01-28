@@ -1,12 +1,9 @@
 import {
-  logo,
   backend,
   creator,
   mobile,
   web,
   github,
-  menu,
-  close,
   css,
   docker,
   python,
@@ -22,22 +19,17 @@ import {
   threejs,
   ceas,
   kv,
-  rec,
   uc,
   icdcu,
-  carrent,
-  jobit,
-  tripguide,
   GVF,
   toh,
   dev_port,
-  githublogo,
   linkedin,
-  peter,
   liam,
   clark,
   jeremy,
-  justhurry
+  justhurry,
+  fitplant
   } from "../assets";
   
   export const navLinks = [
@@ -222,8 +214,6 @@ import {
       ],
     },
     {
-      title: "Member Services Lead",
-      company_name: "UC Campus Rec",
       title: "Member Services Lead",
       company_name: "UC Campus Rec",
       icon: uc,
