@@ -304,6 +304,42 @@ import {
       source_code_link: "https://github.com/AnandVishesh1301/just-hurry",
     },
     {
+      name: "Fit-Plant",
+      description:
+        `Fit-Plant is a digital soil meter combining NPK, light (BH1750), and soil moisture sensors with
+        an ESP32 microcontroller to deliver real-time plant health insights. Programmed in C++ using Arduino,
+        it calculates moisture percentage, light intensity, and NPK levels. The device integrates with a Next.js
+        web app built with Python, React.js, and Tailwind CSS, providing actionable care advice by comparing sensor data to optimal benchmarks.`,
+      tags: [
+        {
+          name: "Arduino(C++)",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Hardware Integration",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Soldering",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Python Flask",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "React JS",
+          color: "#a3e635",
+        },
+        {
+          name: "IoT Sensors",
+          color: "grey-text-gradient",
+        },
+      ],
+      image: fitplant,
+      source_code_link: "https://github.com/AnandVishesh1301/fit-plant",
+    },
+    {
       name: "Volunteer Management System",
       description:
         "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
@@ -345,27 +381,28 @@ import {
       image: toh,
       source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
     },
-    {
-      name: "Developer Portfolio",
-      description:
-        "A dynamic frontend developer portfolio showcasing my work experiences, projects, and college journey, enhanced with animations and 3D models , and built in a separate development environment using a Docker dev container",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Three.js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dev_port,
-      source_code_link: "https://github.com/AnandVishesh1301/developer_portfolio",
-    },
+    // {
+    //   name: "Developer Portfolio",
+    //   description:
+    //     "A dynamic frontend developer portfolio showcasing my work experiences, projects, and college journey, enhanced with animations and 3D models , and built in a separate development environment using a Docker dev container",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Three.js",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "Tailwind CSS",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: dev_port,
+    //   source_code_link: "https://github.com/AnandVishesh1301/developer_portfolio",
+    // },
+    
   ];
   
 export default { services, technologies, experiences, testimonials, projects };
