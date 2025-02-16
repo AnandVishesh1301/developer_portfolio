@@ -34,6 +34,11 @@ import uc from "./company/uc.png";
 import rec from "./company/rec.png";
 import icdcu from "./company/icdcu.png";
 import ceas from "./company/ceas.png";
+import bv_nobg from "./BV_nobg.png";
+import bv from "./BV.png";
+import tribunal from "./tribunal.png";
+import tribunal_nobg from "./tribunal_nobg.png";
+
 
 import peter from "./peter.png";
 import liam from "./liam.png";
@@ -85,5 +90,9 @@ export {
   clark,
   jeremy,
   justhurry,
-  fitplant
+  fitplant,
+  tribunal,
+  tribunal_nobg,
+  bv,
+  bv_nobg
 };
