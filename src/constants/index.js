@@ -29,7 +29,11 @@ import {
   clark,
   jeremy,
   justhurry,
-  fitplant
+  fitplant,
+  tribunal,
+  tribunal_nobg,
+  bv,
+  bv_nobg
   } from "../assets";
   
   export const navLinks = [
@@ -61,7 +65,7 @@ import {
   
   export const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Developer",
       icon: web,
     },
     {
@@ -73,7 +77,7 @@ import {
       icon: backend,
     },
     {
-      title: "Innovative Problem Solver",
+      title: "Venture Analyst & Investor",
       icon: creator,
     },
   ];
@@ -138,6 +142,32 @@ import {
   
   export const experiences = [
     {
+      title: "Teaching Assistant – CS 2028C: Data Structures",
+      company_name: "College of Engineering and Applied Science",
+      icon: ceas,
+      iconBg: "#E6DEDD",
+      date: "January 2025 - Present",
+      points: [
+        "Facilitated weekly lab sessions for 60+ students, covering fundamental data structures such as linked lists, binary trees, graphs, hash tables, and maps.",
+        "Conducted code reviews where student groups presented past labs, fostering peer learning, alternative problem-solving approaches, and constructive feedback discussions.",
+        "Provided detailed feedback and graded lab assignments for 120+ students, ensuring code quality, efficiency, and conceptual understanding.",
+        
+      ],
+    },
+    {
+      title: "VC Analyst",
+      company_name: "Bearcat Ventures",
+      icon: bv_nobg,
+      iconBg: "#E6DEDD",
+      date: "January 2025 - Present",
+      points: [
+        "Conducted due diligence on early-stage startups, analyzing market research, financials, and competitive landscapes to assess investment potential.",
+        "Presented investment recommendations to the Investment Committee, contributing to funding decisions for student-led VC investments of up to $25K in SAFE notes.",
+        "Played a key role in the due diligence and IC process for Bearcat Ventures’ first and largest Series A investment of $100K.",
+        
+      ],
+    },
+    {
       title: "SWE Intern - Data Engineering/Machine Learning",
       company_name: "Kinetic Vision",
       icon: kv,
@@ -179,7 +209,7 @@ import {
     {
       title: "Career Dev Chair",
       company_name: "College of Engineering and Applied Science Tribunal",
-      icon: ceas,
+      icon: tribunal_nobg,
       iconBg: "#E6DEDD",
       date: "January 2024 - April 2024",
       points: [
