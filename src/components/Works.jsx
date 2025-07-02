@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 import { styles } from '../style';
@@ -8,7 +7,7 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image,
-  source_code_link }) => {
+  source_code_link, deployment_link }) => {
   return (
     <motion.div
       variants={fadeIn("up", "spring",
@@ -31,7 +30,7 @@ const ProjectCard = ({ index, name, description, tags, image,
         >
           <img
             src={image}
-            alt={image}
+            alt={name}
             className='w-full h-full object-cover
           rounded-2xl'
           />
@@ -44,7 +43,7 @@ const ProjectCard = ({ index, name, description, tags, image,
                 window.open(source_code_link, "_blank")
               }
               className='black-gradient w-10 h-10
-              rounded-full flex justify-center items-center cursor-pointer'
+              rounded-full flex justify-center items-center cursor-pointer mr-2'
             >
               <img
                 src={github}
@@ -52,20 +51,21 @@ const ProjectCard = ({ index, name, description, tags, image,
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>
-            {/* Another div for future Live Links to the Projects. Change the Github logo to something more relevant */}
-            {/* <div
-              onClick={() =>
-                window.open(source_code_link, "_blank")
-              }
-              className='black-gradient w-10 h-10
-              rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt="github"
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div> */}
+            {deployment_link && (
+              <div
+                onClick={() =>
+                  window.open(deployment_link, "_blank")
+                }
+                className='black-gradient w-10 h-10
+                rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-1/2 h-1/2 object-contain text-white">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </div>
+            )}
           </div>
         </div>
         {/* Div Section for the name and desc of the projs */}
@@ -106,17 +106,22 @@ const Works = () => {
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`}
-            index={index}
-            {...project}
-          />
-
-        ))}
-
+        {projects && projects.length > 0 ? (
+          projects.map((project, index) => (
+            <ProjectCard
+              key={project.name} // Using name as key instead of index
+              index={index}
+              {...project}
+            />
+          ))
+        ) : (
+          <p>No projects to display</p>
+        )}
       </div>
     </>
   )
 }
 
-export default SectionWrapper(Works, "");
+// Named export for better Fast Refresh support
+const WrappedWorks = SectionWrapper(Works, "");
+export default WrappedWorks;

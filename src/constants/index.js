@@ -23,17 +23,16 @@ import {
   icdcu,
   GVF,
   toh,
-  dev_port,
   linkedin,
+  medium,
   liam,
   clark,
   jeremy,
   justhurry,
   fitplant,
-  tribunal,
   tribunal_nobg,
-  bv,
-  bv_nobg
+  bv_nobg,
+  transformer
   } from "../assets";
   
   export const navLinks = [
@@ -61,19 +60,24 @@ import {
       url: "https://www.linkedin.com/in/vishesh1301/",
       icon: linkedin,
     },
+    {
+      id: "medium",
+      url: "https://medium.com/@anandvh",
+      icon: medium,
+    },
   ];
   
   export const services = [
     {
-      title: "Full-Stack Developer",
+      title: "AI/ML Developer & Model Tamer",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Full-Stack Wizard",
       icon: mobile,
     },
     {
-      title: "Leadership Catalyst",
+      title: "Chaos Coordinator (a.k.a. Leader)",
       icon: backend,
     },
     {
@@ -291,6 +295,52 @@ import {
   
   export const projects = [
     {
+      name: "Trump Tweet Generator",
+      description:
+        "A character-level Transformer model trained on President Trump's tweets, generating stylized tweets with adjustable parameters. Deployed as a scalable API on Hugging Face Spaces for real-time text generation.",
+      tags: [
+        {
+          name: "PyTorch",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Transformer",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Self-Attention",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Residual Connections",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Dropout Regularization",
+          color: "#a3e635",
+        },
+        {
+          name: "Bigram Model",
+          color: "grey-text-gradient",
+        },
+        {
+          name: "Hugging Face Spaces",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "NLP",
+          color: "indigo-text-gradient",
+        },
+        {
+          name: "Text Generation",
+          color: "yellow-text-gradient",
+        },
+      ],
+      image: transformer,
+      source_code_link: "https://github.com/AnandVishesh1301/tweet-prediction-transformer",
+      deployment_link: "https://tweetpredictiontransformer.vercel.app/",
+    },
+    {
       name: "Just-Hurry!",
       description:
         "Built at Hack Harvard 2024, Just-Hurry! is a web app and ML model that predicts hurricane impact zones to efficiently allocate disaster relief resources efficiently and acts as a mediatory between relief orgs and refugees. Developed using ReactJS, Next.js, Python Flask, and MongoDB, it provides real-time resources and volunteer coordination, with data visualization integrated via Palantir Foundry.",
@@ -359,27 +409,27 @@ import {
       image: fitplant,
       source_code_link: "https://github.com/AnandVishesh1301/fit-plant",
     },
-    {
-      name: "Volunteer Management System",
-      description:
-        "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: GVF,
-      source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
-    },
+    // {
+    //   name: "Volunteer Management System",
+    //   description:
+    //     "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "typescript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "PostgreSQL",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: GVF,
+    //   source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
+    // },
     {
       name: "Towers of Hanoi",
       description:
@@ -394,35 +444,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Stcak Management",
+          name: "Stack Management",
           color: "pink-text-gradient",
         },
       ],
       image: toh,
       source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
     },
-    // {
-    //   name: "Developer Portfolio",
-    //   description:
-    //     "A dynamic frontend developer portfolio showcasing my work experiences, projects, and college journey, enhanced with animations and 3D models , and built in a separate development environment using a Docker dev container",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "Three.js",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "Tailwind CSS",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: dev_port,
-    //   source_code_link: "https://github.com/AnandVishesh1301/developer_portfolio",
-    // },
-    
   ];
   
-export default { services, technologies, experiences, testimonials, projects };
+// Don't export default here, only use named exports

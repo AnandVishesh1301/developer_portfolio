@@ -9,6 +9,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import githublogo from "./githublogo.png"
 import linkedin from "./linkedin.png"
+import medium from "./medium.svg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -38,16 +39,14 @@ import bv_nobg from "./BV_nobg.png";
 import bv from "./BV.png";
 import tribunal from "./tribunal.png";
 import tribunal_nobg from "./tribunal_nobg.png";
-
+import transformer from "./transformer-model.png";
 
 import peter from "./peter.png";
 import liam from "./liam.png";
 import clark from "./clark.png";
 import jeremy from "./jeremy.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
@@ -75,11 +74,9 @@ export {
   uc,
   rec,
   icdcu,
-  carrent,
-  jobit,
-  tripguide,
   githublogo,
   linkedin,
+  medium,
   ceas,
   toh,
   GVF,
@@ -94,5 +91,6 @@ export {
   tribunal,
   tribunal_nobg,
   bv,
-  bv_nobg
+  bv_nobg,
+  transformer
 };
