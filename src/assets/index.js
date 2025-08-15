@@ -45,6 +45,7 @@ import peter from "./peter.png";
 import liam from "./liam.png";
 import clark from "./clark.png";
 import jeremy from "./jeremy.png";
+import todo from "./todo.jpeg";
 
 
 
@@ -92,5 +93,6 @@ export {
   tribunal_nobg,
   bv,
   bv_nobg,
-  transformer
+  transformer,
+  todo
 };

@@ -32,7 +32,8 @@ import {
   fitplant,
   tribunal_nobg,
   bv_nobg,
-  transformer
+  transformer,
+  todo
   } from "../assets";
   
   export const navLinks = [
@@ -409,27 +410,6 @@ import {
       image: fitplant,
       source_code_link: "https://github.com/AnandVishesh1301/fit-plant",
     },
-    // {
-    //   name: "Volunteer Management System",
-    //   description:
-    //     "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "typescript",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "PostgreSQL",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: GVF,
-    //   source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
-    // },
     {
       name: "Towers of Hanoi",
       description:
@@ -451,6 +431,45 @@ import {
       image: toh,
       source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
     },
+    {
+      name: "Multi-threaded Task Scheduler (C++20)",
+      description:
+        "A modern C++20 CLI task manager with thread-safe scheduling, real-time reminders, RAII auto-save, and clean OOP design (polymorphism, smart pointers, priority queue). Built to demonstrate scalable concurrency and safe persistence in low-latency environments.",
+      tags: [
+        { name: "C++20",            color: "blue-text-gradient" },
+        { name: "OOP",              color: "green-text-gradient" },
+        { name: "Concurrency",      color: "pink-text-gradient" },
+        { name: "std::jthread",     color: "purple-text-gradient" },
+        { name: "Priority Queue",   color: "orange-text-gradient" },
+        { name: "RAII",             color: "yellow-text-gradient" },
+        { name: "Google Test",      color: "red-text-gradient" },
+        { name: "nlohmann/json",    color: "teal-text-gradient" },
+        { name: "CLI",              color: "grey-text-gradient" }
+      ],
+      image: todo,
+      source_code_link: "https://github.com/AnandVishesh1301/chrono-scheduler", // update if different
+    },
+    {
+      name: "Volunteer Management System",
+      description:
+        "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: GVF,
+      source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
+    },
+
   ];
   
-// Don't export default here, only use named exports
