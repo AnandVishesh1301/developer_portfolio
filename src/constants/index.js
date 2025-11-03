@@ -375,6 +375,7 @@ import {
       ],
       image: justhurry,
       source_code_link: "https://github.com/AnandVishesh1301/just-hurry",
+      deployment_link: "https://devpost.com/software/just-hurry",
     },
     {
       name: "Fit-Plant",
