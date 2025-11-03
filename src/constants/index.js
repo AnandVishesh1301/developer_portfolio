@@ -501,8 +501,7 @@ import {
         { name: "Render", color: "grey-text-gradient" }
       ],
       image: memarylogo,
-      source_code_link: "https://devpost.com/software/just-hurry?ref_content=my-projects-tab&ref_feature=my_projects",
-      deployment_link: "https://devpost.com/software/just-hurry?ref_content=my-projects-tab&ref_feature=my_projects",
+      deployment_link: "https://devpost.com/software/memary",
     },
 
   ];
