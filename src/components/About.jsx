@@ -47,9 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm Vishesh, a rising third-year Computer Science major at the University of Cincinnati.<br />
-        With a solid foundation in Web-Dev and frameworks along with core CS fundamentals, gained through hands-on experiences like my undergraduate research in Bioinformatics Development and a SWE internship at Kinetic Vision. These roles have sharpened my technical skills and problem-solving abilities in real-world scenarios<br />
-        My soft skills, including leadership and team management, have been further developed through roles where I organized and led crucial events within the College of Engineering and Applied Science, aiming to improve the lives of my fellow peers. I'm passionate about contributing positively to society, and these experiences reflect my commitment to making a meaningful impact. For more details, browse through my portfolio to dive deeper into my experiences.
+        I'm Vishesh, a fourth-year Computer Science major at the University of Cincinnati who loves turning ideas into real, usable tools.<br /><br />
+        What excites me about CS is how it lets me build solutions from scratch that solve problems for myself or others. Whether it's a CLI for developer workflows, agentic bots, or data dashboards, I enjoy bringing my thoughts to life and making an impact with code.<br /><br />
+        I chose CS because every new project is a blank page. If I see a challenge or inefficiency, I get to directly create something to solve it. My journey has spanned bioinformatics research, deploying AI agents at Kinetic Vision, and leading product sprints from MVPs to production deployments.<br /><br />
+        Currently, I’m working on Soar AI Labs, a project focused on invisible version control, and digging deep into ML research around reasoning and reinforcement learning as a Research Assistant at CincyNLP.<br /><br />
+        I’m passionate about building fast, reliable systems, making smaller LLMs more efficient, and experimenting at the intersection of AI, automation, and user experience. For me, it’s always about creating solutions that genuinely help people and learning something new along the way.<br /><br />
+        Thanks for your time checking out my projects. If you’re building in the same space or excited about CS and AI, I’d love to connect!
       </motion.p>
       <div
         className='mt-20 flex flex-wrap gap-10'

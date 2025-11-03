@@ -33,7 +33,8 @@ import {
   tribunal_nobg,
   bv_nobg,
   transformer,
-  todo
+  todo,
+  kitelogo
   } from "../assets";
   
   export const navLinks = [
@@ -469,6 +470,21 @@ import {
       ],
       image: GVF,
       source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
+    },
+    {
+      name: "Kite",
+      description:
+        "RAG-powered codebase Q&A that lets you ask natural-language questions about a repository and get cited answers. Built with TypeScript and Bun; indexes repos and answers queries with deterministic citations.",
+      tags: [
+        { name: "TypeScript", color: "blue-text-gradient" },
+        { name: "Bun", color: "green-text-gradient" },
+        { name: "RAG", color: "pink-text-gradient" },
+        { name: "Code Search", color: "purple-text-gradient" },
+        { name: "LLM", color: "orange-text-gradient" },
+      ],
+      image: kitelogo,
+      source_code_link: "https://github.com/SoarAILabs/rag",
+      deployment_link: "https://soarailabs.vercel.app/",
     },
 
   ];
