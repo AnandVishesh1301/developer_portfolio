@@ -38,19 +38,21 @@ const ProjectCard = ({ index, name, description, tags, image,
             className='absolute inset-0 flex 
           justify-end m-3 card-img_hover'
           >
-            <div
-              onClick={() =>
-                window.open(source_code_link, "_blank")
-              }
-              className='black-gradient w-10 h-10
-              rounded-full flex justify-center items-center cursor-pointer mr-2'
-            >
-              <img
-                src={github}
-                alt="github"
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
+            {source_code_link && (
+              <div
+                onClick={() =>
+                  window.open(source_code_link, "_blank")
+                }
+                className='black-gradient w-10 h-10
+                rounded-full flex justify-center items-center cursor-pointer mr-2'
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            )}
             {deployment_link && (
               <div
                 onClick={() =>

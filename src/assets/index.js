@@ -46,6 +46,8 @@ import liam from "./liam.png";
 import clark from "./clark.png";
 import jeremy from "./jeremy.png";
 import todo from "./todo.jpeg";
+import kitelogo from "./kitelogo.jpeg";
+import memarylogo from "./memarylogo.png";
 
 
 
@@ -94,5 +96,8 @@ export {
   bv,
   bv_nobg,
   transformer,
-  todo
+  todo,
+  kitelogo
+  ,
+  memarylogo
 };
