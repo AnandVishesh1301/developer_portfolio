@@ -149,6 +149,17 @@ import {
   
   export const experiences = [
     {
+      title: "Research Assistant – CincyNLP Lab, Dr. Tianyu Jiang",
+      company_name: "University of Cincinnati",
+      icon: uc,
+      iconBg: "#E6DEDD",
+      date: "August 2025 - Present",
+      points: [
+        "Reproduced RL setups from reasoning papers (Qwen 7.5B); evaluated LLMs on math/code with Hugging Face's pipeline.",
+        "Fine-tuned BERT for 6-class embodied emotion detection via ensemble learning and regularization.",
+      ],
+    },
+    {
       title: "Teaching Assistant – CS 2028C: Data Structures",
       company_name: "College of Engineering and Applied Science",
       icon: ceas,
@@ -298,6 +309,21 @@ import {
   
   export const projects = [
     {
+      name: "Kite",
+      description:
+        "RAG powered codebase Q&A that lets you ask natural language questions about a repository and get cited answers. Built with TypeScript and Bun; indexes repos and answers queries after semantic search from your commits/PRs.",
+      tags: [
+        { name: "TypeScript", color: "blue-text-gradient" },
+        { name: "Bun", color: "green-text-gradient" },
+        { name: "RAG", color: "pink-text-gradient" },
+        { name: "Code Search", color: "purple-text-gradient" },
+        { name: "LLM", color: "orange-text-gradient" },
+      ],
+      image: kitelogo,
+      source_code_link: "https://github.com/SoarAILabs/rag",
+      deployment_link: "https://soarailabs.vercel.app/",
+    },
+    {
       name: "Trump Tweet Generator",
       description:
         "A character-level Transformer model trained on President Trump's tweets, generating stylized tweets with adjustable parameters. Deployed as a scalable API on Hugging Face Spaces for real-time text generation.",
@@ -378,6 +404,24 @@ import {
       deployment_link: "https://devpost.com/software/just-hurry",
     },
     {
+      name: "Multi-threaded Task Scheduler (C++20)",
+      description:
+        "A modern C++20 CLI task manager with thread-safe scheduling, real-time reminders, RAII auto-save, and clean OOP design (polymorphism, smart pointers, priority queue). Built to demonstrate scalable concurrency and safe persistence in low-latency environments.",
+      tags: [
+        { name: "C++20",            color: "blue-text-gradient" },
+        { name: "OOP",              color: "green-text-gradient" },
+        { name: "Concurrency",      color: "pink-text-gradient" },
+        { name: "std::jthread",     color: "purple-text-gradient" },
+        { name: "Priority Queue",   color: "orange-text-gradient" },
+        { name: "RAII",             color: "yellow-text-gradient" },
+        { name: "Google Test",      color: "red-text-gradient" },
+        { name: "nlohmann/json",    color: "teal-text-gradient" },
+        { name: "CLI",              color: "grey-text-gradient" }
+      ],
+      image: todo,
+      source_code_link: "https://github.com/AnandVishesh1301/chrono-scheduler", // update if different
+    },
+    {
       name: "Fit-Plant",
       description:
         `Fit-Plant is a digital soil meter combining NPK, light (BH1750), and soil moisture sensors with
@@ -434,24 +478,7 @@ import {
       image: toh,
       source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
     },
-    {
-      name: "Multi-threaded Task Scheduler (C++20)",
-      description:
-        "A modern C++20 CLI task manager with thread-safe scheduling, real-time reminders, RAII auto-save, and clean OOP design (polymorphism, smart pointers, priority queue). Built to demonstrate scalable concurrency and safe persistence in low-latency environments.",
-      tags: [
-        { name: "C++20",            color: "blue-text-gradient" },
-        { name: "OOP",              color: "green-text-gradient" },
-        { name: "Concurrency",      color: "pink-text-gradient" },
-        { name: "std::jthread",     color: "purple-text-gradient" },
-        { name: "Priority Queue",   color: "orange-text-gradient" },
-        { name: "RAII",             color: "yellow-text-gradient" },
-        { name: "Google Test",      color: "red-text-gradient" },
-        { name: "nlohmann/json",    color: "teal-text-gradient" },
-        { name: "CLI",              color: "grey-text-gradient" }
-      ],
-      image: todo,
-      source_code_link: "https://github.com/AnandVishesh1301/chrono-scheduler", // update if different
-    },
+    
     {
       name: "Volunteer Management System",
       description:
@@ -473,21 +500,7 @@ import {
       image: GVF,
       source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
     },
-    {
-      name: "Kite",
-      description:
-        "RAG powered codebase Q&A that lets you ask natural language questions about a repository and get cited answers. Built with TypeScript and Bun; indexes repos and answers queries after semantic search from your commits/PRs.",
-      tags: [
-        { name: "TypeScript", color: "blue-text-gradient" },
-        { name: "Bun", color: "green-text-gradient" },
-        { name: "RAG", color: "pink-text-gradient" },
-        { name: "Code Search", color: "purple-text-gradient" },
-        { name: "LLM", color: "orange-text-gradient" },
-      ],
-      image: kitelogo,
-      source_code_link: "https://github.com/SoarAILabs/rag",
-      deployment_link: "https://soarailabs.vercel.app/",
-    },
+    
     {
       name: "memARy — Cal Hacks 2025 (3rd Place, Snap AR Track)",
       description:
