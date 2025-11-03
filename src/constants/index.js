@@ -34,7 +34,8 @@ import {
   bv_nobg,
   transformer,
   todo,
-  kitelogo
+  kitelogo,
+  memarylogo
   } from "../assets";
   
   export const navLinks = [
@@ -474,7 +475,7 @@ import {
     {
       name: "Kite",
       description:
-        "RAG-powered codebase Q&A that lets you ask natural-language questions about a repository and get cited answers. Built with TypeScript and Bun; indexes repos and answers queries with deterministic citations.",
+        "RAG powered codebase Q&A that lets you ask natural language questions about a repository and get cited answers. Built with TypeScript and Bun; indexes repos and answers queries after semantic search from your commits/PRs.",
       tags: [
         { name: "TypeScript", color: "blue-text-gradient" },
         { name: "Bun", color: "green-text-gradient" },
@@ -485,6 +486,23 @@ import {
       image: kitelogo,
       source_code_link: "https://github.com/SoarAILabs/rag",
       deployment_link: "https://soarailabs.vercel.app/",
+    },
+    {
+      name: "memARy — Cal Hacks 2025 (3rd Place, Snap AR Track)",
+      description:
+        "AI-powered wearable platform on Snap AR Spectacles that turns visual/audio inputs into structured, searchable memory using Reka vision models and ChromaDB (RAG). Integrated Poké’s MCP microservice (deployed on Render) to store, search, and recall memories across mobile and web—no glasses required.",
+      tags: [
+        { name: "Snap AR", color: "blue-text-gradient" },
+        { name: "Spectacles", color: "green-text-gradient" },
+        { name: "RAG", color: "pink-text-gradient" },
+        { name: "ChromaDB", color: "purple-text-gradient" },
+        { name: "Reka Vision", color: "orange-text-gradient" },
+        { name: "MCP", color: "yellow-text-gradient" },
+        { name: "Render", color: "grey-text-gradient" }
+      ],
+      image: memarylogo,
+      source_code_link: "https://devpost.com/software/just-hurry?ref_content=my-projects-tab&ref_feature=my_projects",
+      deployment_link: "https://devpost.com/software/just-hurry?ref_content=my-projects-tab&ref_feature=my_projects",
     },
 
   ];
