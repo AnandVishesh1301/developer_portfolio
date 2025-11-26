@@ -504,7 +504,7 @@ import {
     {
       name: "memARy — Cal Hacks 2025 (3rd Place, Snap AR Track)",
       description:
-        "AI-powered wearable platform on Snap AR Spectacles that turns visual/audio inputs into structured, searchable memory using Reka vision models and ChromaDB (RAG). Integrated Poké’s MCP microservice (deployed on Render) to store, search, and recall memories across mobile and web—no glasses required.",
+        "AI-powered wearable platform on Snap AR Spectacles that turns visual/audio inputs into structured, searchable memory using Reka vision models and ChromaDB (RAG). Integrated Poké's MCP microservice (deployed on Render) to store, search, and recall memories across mobile and web—no glasses required.",
       tags: [
         { name: "Snap AR", color: "blue-text-gradient" },
         { name: "Spectacles", color: "green-text-gradient" },
@@ -516,6 +516,23 @@ import {
       ],
       image: memarylogo,
       deployment_link: "https://devpost.com/software/memary",
+    },
+
+    {
+      name: "XStream MCP",
+      description:
+        "A Model Context Protocol (MCP) server that enables AI agents to interact with Twitter/X through a secure, stateless API. Features edge deployment on Cloudflare Workers, tools for managing tweet drafts and posting, workflow supporting human oversight, custom OAuth 1.0a authentication for Twitter API v2, and Cloudflare D1 database for persistent draft storage.",
+      tags: [
+        { name: "TypeScript", color: "blue-text-gradient" },
+        { name: "Cloudflare Workers", color: "green-text-gradient" },
+        { name: "Hono", color: "pink-text-gradient" },
+        { name: "MCP", color: "purple-text-gradient" },
+        { name: "Twitter API", color: "orange-text-gradient" },
+        { name: "OAuth 1.0a", color: "yellow-text-gradient" },
+        { name: "D1 Database", color: "grey-text-gradient" }
+      ],
+      image: backend,
+      source_code_link: "https://github.com/AnandVishesh1301/XStream_MCP",
     },
 
   ];
