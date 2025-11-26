@@ -48,6 +48,7 @@ import jeremy from "./jeremy.png";
 import todo from "./todo.jpeg";
 import kitelogo from "./kitelogo.jpeg";
 import memarylogo from "./memarylogo.png";
+import xlogo from "./x-logo.webp";
 
 
 
@@ -97,7 +98,7 @@ export {
   bv_nobg,
   transformer,
   todo,
-  kitelogo
-  ,
-  memarylogo
+  kitelogo,
+  memarylogo,
+  xlogo
 };
