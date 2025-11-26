@@ -35,7 +35,8 @@ import {
   transformer,
   todo,
   kitelogo,
-  memarylogo
+  memarylogo,
+  xlogo
   } from "../assets";
   
   export const navLinks = [
@@ -531,7 +532,7 @@ import {
         { name: "OAuth 1.0a", color: "yellow-text-gradient" },
         { name: "D1 Database", color: "grey-text-gradient" }
       ],
-      image: backend,
+      image: xlogo,
       source_code_link: "https://github.com/AnandVishesh1301/XStream_MCP",
     },
 
