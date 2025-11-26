@@ -21,7 +21,6 @@ import {
   kv,
   uc,
   icdcu,
-  GVF,
   toh,
   linkedin,
   medium,
@@ -479,29 +478,7 @@ import {
       image: toh,
       source_code_link: "https://github.com/AnandVishesh1301/towers-of-hanoi",
     },
-    
-    {
-      name: "Volunteer Management System",
-      description:
-        "A web app built from scratch for a non-profit, empowering volunteers to register for events, upload documents, and track their progress, specifically aiding Alzheimer's patients",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: GVF,
-      source_code_link: "https://github.com/AnandVishesh1301/gvf-volunter-management-system",
-    },
-    
+
     {
       name: "memARy — Cal Hacks 2025 (3rd Place, Snap AR Track)",
       description:

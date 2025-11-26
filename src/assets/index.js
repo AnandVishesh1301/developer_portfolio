@@ -24,7 +24,6 @@ import graphql from "./tech/graphql.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import GVF from "./GVF.png";
 import toh from "./toh.png";
 import dev_port from "./dev-portfolio-png-fw.png";
 import justhurry from "./justhurry.png";
@@ -83,7 +82,6 @@ export {
   medium,
   ceas,
   toh,
-  GVF,
   dev_port,
   vlogo,
   peter,
